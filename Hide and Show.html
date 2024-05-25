@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-3.7.1.js"></script>
+
+    <style>
+        button
+        {
+            border-radius: 10px;
+            background-color: green;
+            outline: none;
+            color: white;
+        }
+
+
+        body
+        {
+            background-color: lightblue;
+        }
+
+        h1
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="myheading">This is Muhammad Suleman</h1>        <!--  H1 -->
+    <button id="hidebutton">Hide</button>                   <!-- Button 1 -->
+    <button id="showbutton">Show</button>                   <!-- Button 2 -->
+
+
+    <p align="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis laboriosam earum repellat possimus tempore quidem ipsam, officia nisi aliquid quo numquam nesciunt mollitia? Unde distinctio voluptatibus necessitatibus nobis optio officia enim vero quos quo et eaque architecto assumenda aspernatur error, corrupti at explicabo nisi ex iste? Nam, nostrum illo officiis assumenda, explicabo est rem sint quasi vel libero et aperiam nesciunt deleniti. Nobis quos vel dolorem. Commodi, hic reprehenderit repellendus maiores, quidem modi numquam maxime tempora, nemo beatae facilis aliquam iusto. Vel sint atque doloremque labore optio, dolorem recusandae officia aperiam nemo facere! Facere rem asperiores aut quasi aspernatur officia cum culpa dolor quo similique, exercitationem provident fuga, a illo saepe tempore? Consequuntur ab, omnis eligendi doloremque porro magnam reiciendis saepe. Vero dolorem adipisci, nesciunt inventore unde, odit vel numquam, minus quidem dolor repellat rerum eum explicabo sed fugit! Corrupti hic dolore voluptatibus eos ut doloremque deserunt possimus beatae maiores vitae eius quisquam ipsam, quod exercitationem aspernatur consequatur aliquid cupiditate quis laudantium non porro. Totam, earum! Amet, veniam minus! Minus exercitationem beatae vero voluptatum at. Placeat doloribus mollitia magni blanditiis velit nam laboriosam, vitae obcaecati quisquam praesentium, veniam deserunt consectetur, magnam quibusdam! Quam inventore perferendis rem. Quibusdam molestiae sequi deleniti.</p>
+</body>
+<script>                
+    $(document).ready(function () {
+
+        $('#hidebutton').click(function () {
+            $('#myheading').hide(2000);
+        });
+
+        $('#showbutton').click(function () {
+            $('#myheading').show(2000);
+        });
+
+    });
+
+
+
+
+</script>
+</html>
